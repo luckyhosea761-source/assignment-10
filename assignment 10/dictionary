@@ -1,0 +1,22 @@
+# Assignment 10 - Dictionary
+# Create a mini database
+
+student = {
+    "Name": "John",
+    "Age": 20,
+    "Course": "Computer Science",
+    "Phone": "08012345678",
+    "Email": "john@gmail.com"
+}
+
+# Retrieve information
+name = input("Enter Student Name: ")
+
+if name.lower() == student["Name"].lower():
+    print("Name:", student["Name"])
+    print("Age:", student["Age"])
+    print("Course:", student["Course"])
+    print("Phone:", student["Phone"])
+    print("Email:", student["Email"])
+else:
+    print("Student not found.")
